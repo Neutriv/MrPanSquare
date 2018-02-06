@@ -1,0 +1,122 @@
+
+
+
+
+canvas{width:100%;height:100%;}
+
+
+
+
+
+.container {
+   width: 1500px;
+   height: 700px;
+   margin: auto;
+   position: absolute;
+   top:0; bottom:0; /* wyrównanie w pionie */
+   left:0; right:0; /* wyrównanie w poziomie */
+   max-width: 90%;  /* responsywność */
+   max-height: 90%; /* responsywność */
+  
+}
+
+#soundicon {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  text-shadow: 2px 2px #ff66a3;
+ 
+	
+}
+
+#soundicon:hover
+{
+	cursor:pointer;
+	color:white;
+}
+
+h1 {
+  font-family: KG Sweet;
+  font-size: 3vw;          /* responsywność  1vw = 1% of viewport width*/
+  font-size: 3vh;          /* responsywność  1vh = 1% of viewport height*/
+  position: absolute;
+  top: 8%;
+  left: 46.5%;
+  z-index: 1;
+  text-shadow: 2px 2px #ff66a3;
+
+}
+
+#napis {
+	font-family: KG Sweet;
+  font-size:7vw;          /* responsywność   1vw = 1% of viewport width */ 
+  font-size: 7vh;         /* responsywność   1vh = 1% of viewport height */ 
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 0;
+  text-shadow: 2px 2px #ff66a3;
+  
+}
+
+#napis_pl {
+  position: absolute;
+  font-family: KG Sweet;
+  top: 42%;
+  left: 28%;
+  z-index: 0;
+  text-shadow: 2px 2px #ff66a3;
+  font-size:3vw;
+  font-size: 3vh;
+}
+
+#background {
+	position: fixed;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	opacity: 0.5;
+}
+
+#sun {
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 5px;
+  position: absolute;
+  z-index: 0;
+  max-width: 15%;
+  max-height: 15%;
+}
+
+#cloud {
+  width: auto;
+  height: auto;
+  left: 45%;
+  top: 5px;
+  position: absolute;
+   max-width: 20%;
+   max-height: 20%;
+}
+
+#gratulacje {
+  position: absolute;
+  font-family: KG Sweet;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  text-shadow: 2px 2px #ff66a3;
+  font-size:7vw;          /* responsywność   1vw = 1% of viewport width */ 
+  font-size: 7vh;         /* responsywność   1vh = 1% of viewport height */ 
+}
+
+#credits {
+   position: absolute;
+  font-family: KG Sweet;
+  top: 60%;
+  left: 50%;
+  z-index: 1;
+  text-shadow: 2px 2px #ff66a3;
+  font-size:3vw;          /* responsywność   1vw = 1% of viewport width */ 
+  font-size: 3vh;         /* responsywność   1vh = 1% of viewport height */ 
+}

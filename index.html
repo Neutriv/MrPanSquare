@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Mr.Square</title>
+     <link rel="stylesheet" href="css/style.css"> 
+	 <link rel="stylesheet" href="css/fontello.css"> 
+ 
+<style>
+
+@font-face
+{
+  font-family:KG Sweet;
+  src: url("KGSweetNSassy.ttf");
+}
+
+
+
+body {
+  background-image: url("kawaii_background.png");
+}
+
+#canvas {
+	border: 1px solid black;
+	height: 100%;
+    background: -webkit-linear-gradient(5deg, rgb(230, 243, 255), rgb(128, 193, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(5deg, rgb(230, 243, 255), rgb(128, 193, 255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(5deg, rgb(230, 243, 255), rgb(128, 193, 255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(5deg, rgb(230, 243, 255), rgb(128, 193, 255)); /* Standard syntax (must be last) */
+}
+
+
+
+</style>
+  </head>
+
+  <body>
+
+ 
+  <div class="container">
+ <span id="soundicon"  onclick="play()"><i class="icon-volume-up"></i></span>
+  
+  <h1>Mr.PanSquare</h1>
+  <div id="napis"></div>
+  <div id="napis_pl"></div>
+  <div id="credits"></div>
+  <div id="gratulacje"></div>
+  <img id="sun" alt="sun" src="sun.png">
+  <img id="cloud" alt="cloud" src="cloud.png">
+<audio id="audio" src="music.mp3" autoplay loop ></audio>
+  
+    <canvas id="canvas"></canvas>
+	</div>
+</body>
+
+   		<script src="js/index.js"></script>
+   
+</html>
